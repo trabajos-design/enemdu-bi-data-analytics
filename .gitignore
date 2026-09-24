@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Variables de entorno / credenciales
+.env
+*.secret
+*.pem
+*.key
+
+# Datos procesados y fuentes grandes
+datos_enemdu/*.csv
+datos_enemdu/*.xlsx
+salida_enemdu/*.csv
+
+# PostgreSQL / respaldos
+*.dump
+*.backup
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
